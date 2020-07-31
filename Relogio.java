@@ -51,7 +51,7 @@ public class Relogio {
  //       System.out.println(this.hora+":"+this.minuto+":"+this.segundo);
         System.out.printf("%02d:%02d:%02d",this.hora,this.minuto,this.segundo);
 
-
+//teste 3 versao
     }
 
 
