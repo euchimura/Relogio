@@ -16,7 +16,7 @@ public class Relogio {
 
     public void setHora(int hr, int min, int seg)
     {
-        if ((hr>=0) && (hr<=24))
+        if ((hr>=0) && (hr<24))
         {
             this.hora = hr;
         }
@@ -25,7 +25,7 @@ public class Relogio {
             System.out.println("hora invalida!");
         }
 
-        if ((min>=0) && (min<=60))
+        if ((min>=0) && (min<60))
         {
             this.minuto = min;
         }
@@ -34,7 +34,7 @@ public class Relogio {
             System.out.println("Minutos invalidos");
         }
         
-        if ((seg>=0) && (seg<=60))
+        if ((seg>=0) && (seg<60))
         {
             this.segundo = seg;
         }
